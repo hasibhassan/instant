@@ -99,7 +99,7 @@ function Layout({ children }) {
       </div>
       <footer className="remix-app__footer">
         <div className="container remix-app__footer-content">
-          <p>&copy;${new Date.getFullYear()} hasibhassan</p>
+          <p>&copy;${new Date().getFullYear()} hasibhassan</p>
         </div>
       </footer>
     </div>
